@@ -6,7 +6,7 @@ import {FlexWrapper} from "../../../components/FlexWrapper";
 export const Main = () => {
     return (
         <StyledMain>
-            <FlexWrapper align={"centr"} justify={"space-around"}>
+            <FlexWrapper align={"center"} justify={"space-around"}>
                 <div>
                     <span>Hi There</span>
                     <Name>I am Svetlana Dyablo</Name>
@@ -23,7 +23,8 @@ export const Main = () => {
 
 const StyledMain = styled.div`
   min-height: 100vh;
-  background-color: #fff5e7;
+  //background-color: #fff5e7;
+  background-color: #252527;
 `
 
 
